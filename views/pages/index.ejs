@@ -31,14 +31,8 @@
                 <img src=<%= book.img %>>
                 <h2><%= book.title %></h2>
                 <h3><%= book.author %></h3>
-                <form action='/books' method="POST">
-                    <input name="title" value="<%= book.title %>" type="hidden">
-                    <input name="author" value="<%= book.author %>" type="hidden">
-                    <input name="description" value="<%= book.description %>" type="hidden">
-                    <input name="img" value="<%= book.img %>" type="hidden">
-                    <input name="isbn" value="<%= book.isbn %>" type="hidden">
-                    <button id="add" type="submit">View Detailes</button>
-                </form>
+
+               <div>  <a  id="add" href="/bookDetails/<%= book.id %>">View Details</a> </div> 
             </div>
         <% }) %>
     
