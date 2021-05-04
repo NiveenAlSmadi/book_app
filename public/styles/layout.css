@@ -16,6 +16,15 @@
             
         
         }
+
+        main{
+            width: 90%;
+            margin: auto;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
     img {
             border: rgb(10, 10, 10) solid 4px; 
              margin: 10px;
@@ -27,7 +36,7 @@
     .data{
         margin: 10px;
         width: 90%;
-        padding: 10px;
+        padding: 20px;
         display: inline-block;
         overflow:  hidden;
         text-align: center;
@@ -51,7 +60,9 @@
         font-size: 10px;
         padding-bottom: 10px; 
 }
-
+.data1{
+    padding: 40px;
+}
     .API{
       
             line-height: 60px;
@@ -65,7 +76,7 @@
             font-weight: bold;
             padding: 0px;
             margin-left: 75px;
-            margin-top: auto;
+            margin-top: 30px;
     }
     #add{
         padding: 10px;
@@ -76,6 +87,36 @@
         margin-top: 10px;
         margin-bottom:30px;
     }
-    form{
+    .form{
         margin-bottom: 0mm;
+
+
+    }
+    label{
+        color: white;
+        padding: px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .text{ 
+        height: 100px;
+
+
+    }
+    #view{
+        margin-top: 10px;
+        margin-bottom:30px;
+          border-radius: 50px;
+        font-size: 15px;
+        color: lavender;
+        background-color: black;
+    }
+    #updateBtn{
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        color: lavender;
+        background-color: black;
+        margin-top: 10px;
+        margin-bottom:30px;
     }

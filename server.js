@@ -125,10 +125,10 @@ function updatebookHandler(req,res){
       });
 }
 //deletBook/5?_method=put
+
 function deletebookHandler(req,res) {
     let SQL = `DELETE FROM books WHERE id=$1;`;
     let value = [req.params.id];
-    console.log(req.params.id)
     client.query(SQL,value)
     .then(res.redirect('/'))
     .catch (error=>{
