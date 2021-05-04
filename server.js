@@ -92,7 +92,7 @@ this.title = Data.volumeInfo.title || `Book title not found `;
 this.author = Data.volumeInfo.authors || `Author name not available`;
 this.description = (Data.volumeInfo.description) ? Data.volumeInfo.description : `description unavilable`;
 this.img = (Data.volumeInfo.imageLinks) ? Data.volumeInfo.imageLinks.thumbnail : `https://i.imgur.com/J5LVHEL.jpg`;
-if(Data.volumeInfo.industryIdentifiers.length ){
+if(Data.volumeInfo.industryIdentifiers ){
     this.isbn = Data.volumeInfo.industryIdentifiers[0].identifier;}else{
     this.isbn = 'UNKNOUN';}
 }
